@@ -3,15 +3,6 @@ import ReactDom from 'react-dom';
 import SeasonDisplay from './SeasonDisplay';
 import Spinner from './Spinner';
 
-// const App = () => {
-//     window.navigator.geolocation.getCurrentPosition(
-//         (position) => console.log(position), 
-//         (err) => console.log(err)
-//     ); 
-
-//     return <div></div>
-// }
-
 class App extends React.Component {
     state = { lat: null, errorMessage: ''}; 
 
